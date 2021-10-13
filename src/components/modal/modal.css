@@ -1,0 +1,27 @@
+.modal {
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 990;
+  background-color: #00000065;
+}
+
+.modal__link:hover {
+  color: tomato;
+}
+
+.modal__content {
+  position: relative;
+  padding: 50px;
+  background-color: #fff;
+}

@@ -1,0 +1,36 @@
+.tv-shows__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+@media (max-width: 575px) {
+  .tv-shows__list {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+
+.tv-card {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-shadow: 3px 3px 20px 1px rgba(200, 200, 200, .75);
+  box-shadow: 3px 3px 20px 1px rgba(200, 200, 200, .75);
+}
+
+.tv-card__vote {
+  position: absolute;
+  top: 18px;
+  left: 1px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FF637D;
+  height: 25px;
+  width: 44px;
+  display: inline-block;
+  line-height: 25px;
+  font-weight: 900;
+}
+
